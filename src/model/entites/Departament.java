@@ -1,11 +1,13 @@
 package model.entites;
 
+import java.io.Serial;
 import java.io.Serializable;
 import java.util.Objects;
 
 public class Departament implements Serializable {
 
-    private static final long serialversionUID = 1L;
+    @Serial
+    private static final long serialVersionUID = 1L;
 
     private Integer id;
     private String name;
