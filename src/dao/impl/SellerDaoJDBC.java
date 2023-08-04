@@ -1,11 +1,9 @@
 package dao.impl;
-
 import dao.SellerDao;
 import db.DB;
 import db.DbException;
 import model.entites.Departament;
 import model.entites.Seller;
-
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.HashMap;

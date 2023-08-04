@@ -2,7 +2,6 @@ package Application;
 
 import dao.DaoFactory;
 import dao.SellerDao;
-import dao.impl.SellerDaoJDBC;
 import model.entites.Departament;
 import model.entites.Seller;
 import java.util.Date;
